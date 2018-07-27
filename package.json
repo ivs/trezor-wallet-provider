@@ -1,6 +1,6 @@
 {
   "name": "trezor-wallet-provider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Trezor-enabled subprovider for Provider Engine",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   "dependencies": {
     "bip32-path": "^0.4.2",
     "strip-hex-prefix": "^1.0.0",
-    "trezor.js": "6.15.9",
-    "web3-provider-engine": "^13.6.5"
+    "trezor.js": "6.17.6",
+    "web3-provider-engine": "^13.6.5",
+    "babel-polyfill": "^6.26.0"
   }
 }
